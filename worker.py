@@ -1,3 +1,7 @@
+#pip install celery-with-redis==3.0
+#command to run - celery worker --loglevel=info -A worker --beat
+#function - Continuous task worker using Celery and Redis
+
 import datetime
 from celery import Celery
 from celery import group
